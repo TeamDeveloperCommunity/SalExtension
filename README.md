@@ -1,3 +1,5 @@
+![Language](https://img.shields.io/badge/Gupta_Team_Developer-SqlWindows_TD%205.10%20and%20up-red?style=plastic&labelColor=blue)
+
 SALExtensionW
 
 V2.17 - JUNE 2025

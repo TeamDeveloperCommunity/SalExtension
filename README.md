@@ -6,11 +6,10 @@ FOR TD5.x up to TD7.5 (x86)
 
 ############################DESCRIPTION######################
 
-A Collection of usefull functions from many authors:
+A Collection of usefull functions for SqlWindows Team Developer from many authors:
 (David B., Catalin, J. Ellinghaus, G. Pivato, Lubos K., Andrew K., George P.,
 C. Astor, G. Achrainer, Aidas K, Petra Z., Thomas Wiedmann, Philip Hautekiet, fecher, Jeff Luther,
-Phil Gibone, Neil Rashbrook, Jonas M Pederson, Günther Feldzahn, Karthik,C. Schubert, Rainer Ebert,
-all from Iceteagroup, ... .. and all contributed ) and our company.
+Phil Gibone, Neil Rashbrook, Jonas M Pederson, Günther Feldzahn, Karthik,C. Schubert, Rainer Ebert, Dave Rabelink)
 
 Like the Winapi.apl has moved to a standard and many people share them,
 a salextention library would be usefull. Why must everybody program essential functions, which
@@ -23,10 +22,12 @@ and to compete with them, a collection of common usefull functions could help a 
 Please add new functions (author,date,version and description) to the collection and repost it in the newsgroup.
 I don´t know the original programmers of some functions, so perhaps you can add them...
 
-Thomas Lauzi ( tl )
-
 ###############################UPDATES########################
 
+- v2.17 - Dave Rabelink 06/2025
+	- Fixed SalPrtPrintScreen (using HANDLE datatypes in several used WinAPI functions)
+	- All ANSI files now in TD 5.1 outline format
+	- All files now in TEXT INDENTED format
 - v2.16 - Dave Rabelink 03/2023
 	- TD v75 version added (x86). Will not work on x64!!
 - v2.15 - Dave Rabelink 02/2022

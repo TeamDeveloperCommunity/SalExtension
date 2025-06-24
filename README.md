@@ -1,4 +1,4 @@
-![Language](https://img.shields.io/badge/Gupta_Team_Developer-SqlWindows_TD%205.10%20and%20up-red?style=plastic&labelColor=blue)
+![Language](https://img.shields.io/badge/Gupta_Team_Developer-SqlWindows_TD%205.1%20and%20up-red?style=plastic&labelColor=blue)
 
 SALExtensionW
 
@@ -13,16 +13,15 @@ A Collection of usefull functions for SqlWindows Team Developer from many author
 C. Astor, G. Achrainer, Aidas K, Petra Z., Thomas Wiedmann, Philip Hautekiet, fecher, Jeff Luther,
 Phil Gibone, Neil Rashbrook, Jonas M Pederson, Günther Feldzahn, Karthik,C. Schubert, Rainer Ebert, Dave Rabelink)
 
-Like the Winapi.apl has moved to a standard and many people share them,
-a salextention library would be usefull. Why must everybody program essential functions, which
-are missing in centura an should be integrated. This holds you up from real OO-business-progamming, because
-you are busy with programming the low-level stuff. (Other people have solved the problem in most cases).
-The vt.apl is good, but many functions are missing.The winapi.apl is also very good, but you must know how to program the WINAPI.
-I think the centura programmers have to face new challenges, because of new programming languages (JAVA - targets, in our company, to substitute the centura programm)
-and to compete with them, a collection of common usefull functions could help a lot.
+Please add new or fixed functions (author,date,version and description) to the collection and fork this GIT repo.
+Use pull request to get those changes into this official repo.
 
-Please add new functions (author,date,version and description) to the collection and repost it in the newsgroup.
-I don´t know the original programmers of some functions, so perhaps you can add them...
+
+###############################USAGE########################
+
+- Open SALExtensionWXX.apl first in TD IDE where XX stands for the TD version in use.
+- Compile and check all compile errors given and comment out the duplicate functions. Duplicates are caused by Gupta introducing the same function names in the TD featureset.
+- Now SalExtension is ready to be included in your project or copy parts of it.
 
 ###############################UPDATES########################
 

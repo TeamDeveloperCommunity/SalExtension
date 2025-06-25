@@ -1,29 +1,37 @@
 ![Language](https://img.shields.io/badge/Gupta_Team_Developer-SqlWindows_TD%205.1%20and%20up-red?style=plastic&labelColor=blue)
 
-SALExtensionW
+SALExtensionW V2.17 - JUNE 2025
 
-V2.17 - JUNE 2025
+-FOR TD5.x up to TD7.5 (x86)-
 
-FOR TD5.x up to TD7.5 (x86)
+############################ DESCRIPTION ######################
 
-############################DESCRIPTION######################
+A Collection of Useful Functions for Gupta SQLWindows Team Developer TD 5.1 and Higher (UNICODE)
 
-A Collection of usefull functions for SqlWindows Team Developer from many authors:
-(David B., Catalin, J. Ellinghaus, G. Pivato, Lubos K., Andrew K., George P.,
-C. Astor, G. Achrainer, Aidas K, Petra Z., Thomas Wiedmann, Philip Hautekiet, fecher, Jeff Luther,
-Phil Gibone, Neil Rashbrook, Jonas M Pederson, Günther Feldzahn, Karthik,C. Schubert, Rainer Ebert, Dave Rabelink)
+This repository contains a collection of helpful functions for use with Team Developer (TD) version 5.1 and later.
 
-Please add new or fixed functions (author,date,version and description) to the collection and fork this GIT repo.
-Use pull request to get those changes into this official repo.
+Contributions by many authors, including:
+David B., Catalin, J. Ellinghaus, G. Pivato, Lubos K., Andrew K., George P.,
+C. Astor, G. Achrainer, Aidas K., Petra Z., Thomas Wiedmann, Philip Hautekiet, fecher, Jeff Luther,
+Phil Gibone, Neil Rashbrook, Jonas M. Pederson, Günther Feldzahn, Karthik, C. Schubert, Rainer Ebert, Dave Rabelink, and others.
 
+To contribute:
+- Fork this GIT repository
+- Add new or updated functions, including documentation with author, date, version, and description.
+- Submit a pull request to merge your changes into the official repository.
 
-###############################USAGE########################
+############################### USAGE ########################
 
-- Open SALExtensionWXX.apl first in TD IDE where XX stands for the TD version in use.
-- Compile and check all compile errors given and comment out the duplicate functions. Duplicates are caused by Gupta introducing the same function names in the TD featureset.
-- Now SalExtension is ready to be included in your project or copy parts of it.
+- Open the SALExtensionWXX.apl file in the TD IDE (where XX corresponds to your TD version).
+- Compile the file and resolve any compile errors by commenting out duplicate functions. Note: Duplicate functions may exist if Gupta introduced the same function names in later TD versions.
+- Once compiled, you can include SalExtension in your project or selectively copy the functions you need.
 
-###############################UPDATES########################
+Recommendation
+
+Avoid including the entire SalExtension library in production projects. Doing so will increase the size of your source code and runtime, often with unused functionality.
+Instead, copy only the specific functions you need and integrate them into your project structure.
+
+############################### UPDATES ########################
 
 - v2.17 - Dave Rabelink 06/2025
 	- Fixed SalPrtPrintScreen (using HANDLE datatypes in several used WinAPI functions)

@@ -1,6 +1,6 @@
 ![Language](https://img.shields.io/badge/Gupta_Team_Developer-SqlWindows_TD%205.1%20and%20up-red?style=plastic&labelColor=blue)
 
-SALExtensionW V2.17 - JUNE 2025
+SALExtensionW V2.18
 
 -FOR TD5.x up to TD7.5 (x86)-
 
@@ -33,6 +33,9 @@ Instead, copy only the specific functions you need and integrate them into your 
 
 ############################### UPDATES ########################
 
+- v2.18 - Dave Rabelink 10/09/2025
+	- Corrected some WINSOCK declarations to work for UNICODE TD
+	- SalSysGetIP and SalSysPing corrected for UNICODE TD
 - v2.17 - Dave Rabelink 06/2025
 	- Fixed SalPrtPrintScreen (using HANDLE datatypes in several used WinAPI functions)
 	- All ANSI files now in TD 5.1 outline format
